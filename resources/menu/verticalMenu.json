@@ -1,0 +1,158 @@
+{
+  "menu": [
+    {
+      "url": "/admin",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons fa-solid fa-house",
+      "slug": "/dashboard"
+    },
+    {
+      "url": "/admin/chef/dashboard",
+      "name": "Chef Management",
+      "icon": "menu-icon tf-icons fa-solid fa-chess-king",
+      "slug": "chef-management"
+    },
+    {
+      "name": "Food menu",
+      "url": "",
+      "icon": "menu-icon tf-icons fa-solid fa-utensils",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "/admin/menu/breakfast",
+          "name": "Breakfast",
+          "slug": "breakfast"
+        },
+        {
+          "url": "/admin/menu/lunch",
+          "name": "Lunch",
+          "slug": "layouts-without-navbar"
+        },
+        {
+          "url": "/admin/menu/dinner",
+          "name": "Dinner",
+          "slug": "layouts-container"
+        },
+        {
+          "url": "/admin/menu/drinks",
+          "name": "Drinks",
+          "slug": "layouts-fluid"
+        },
+        {
+          "url": "/admin/menu/desserts",
+          "name": "Desserts",
+          "slug": "layouts-blank"
+        },
+        {
+          "url": "/admin/menu/wine",
+          "name": "Wine",
+          "slug": "layouts-blank"
+        }
+      ]
+    },
+    {
+      "name": "User details",
+      "url": "",
+      "icon": "menu-icon tf-icons fa-solid fa-user",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "admin/user-details/admin-data",
+          "name": "Admin",
+          "slug": "admin details"
+        },
+        {
+          "url": "admin/user-details/user-data",
+          "name": "User",
+          "slug": "user details"
+        }
+      ]
+    },
+    {
+      "url": "/admin/stories-management",
+      "name": "Stories management",
+      "icon": "menu-icon tf-icons fa-solid fa-passport",
+      "slug": "stories-management"
+    },
+    {
+      "url": "/admin/contact-details/contact",
+      "name": "Contact Details",
+      "icon": "menu-icon tf-icons fa-solid fa-address-book",
+      "slug": "contact-details"
+    }
+  ],
+  "chefMenu": [
+    {
+      "url": "/admin/chef-admin/dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons fa-solid fa-house",
+      "slug": "/dashboard"
+    },
+    {
+      "name": "Food menu",
+      "url": "",
+      "icon": "menu-icon tf-icons fa-solid fa-utensils",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "/admin/menu/breakfast",
+          "name": "Breakfast",
+          "slug": "breakfast"
+        },
+        {
+          "url": "/admin/menu/lunch",
+          "name": "Lunch",
+          "slug": "layouts-without-navbar"
+        },
+        {
+          "url": "/admin/menu/dinner",
+          "name": "Dinner",
+          "slug": "layouts-container"
+        },
+        {
+          "url": "/admin/menu/drinks",
+          "name": "Drinks",
+          "slug": "layouts-fluid"
+        },
+        {
+          "url": "/admin/menu/desserts",
+          "name": "Desserts",
+          "slug": "layouts-blank"
+        },
+        {
+          "url": "/admin/menu/wine",
+          "name": "Wine",
+          "slug": "layouts-blank"
+        }
+      ]
+    },
+    {
+      "name": "Orders",
+      "url": "",
+      "icon": "menu-icon tf-icons fa-solid fa-plate-wheat",
+      "slug": "layouts",
+      "submenu": [
+        {
+          "url": "/admin/chef-admin/pending",
+          "name": "Pending",
+          "slug": "pending"
+        },
+        {
+          "url": "/admin/chef-admin/processing",
+          "name": "Processing",
+          "slug": "processing"
+        },
+        {
+          "url": "/admin/chef-admin/completed",
+          "name": "Completed",
+          "slug": "completed"
+        },
+        {
+          "url": "/admin/chef-admin/cancel",
+          "name": "Cancel",
+          "slug": "cancel"
+        }
+      ]
+    }
+  ]
+}
